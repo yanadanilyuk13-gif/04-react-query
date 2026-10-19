@@ -54,10 +54,6 @@ export default function App() {
     setPage(1);
   }
 
-  function handlePageChange(event: { selected: number }) {
-    setPage(event.selected + 1);
-  }
-
   function handleSelect(movie: Movie) {
     setSelectedMovie(movie);
   }
